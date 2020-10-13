@@ -36,7 +36,7 @@ public class Produto {
 	
 	@ManyToOne()
 	@JsonIgnoreProperties("usuario")
-	@NotNull
+	
 	private Usuario usuario; 
 	
 	@ManyToOne()
