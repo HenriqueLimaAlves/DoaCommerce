@@ -26,8 +26,17 @@ public class Produto {
 	@NotNull
 	@Size(max=25)
 	private String nome;//tive que adicionar o "nome do produto", caso contrario só apareceria a categoria na tabela.(ex o nome do produto é "Arroz" da categoria alimento)
+	private String img;	
+	private String texto;
 	
-	
+	public String getImg() {
+		return img;
+	}
+
+	public void setImg(String img) {
+		this.img = img;
+	}
+
 	private boolean urgente;
 	
 	@ManyToOne()
