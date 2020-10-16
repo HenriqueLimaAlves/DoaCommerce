@@ -2,44 +2,53 @@ package com.grupoTres.doacommerce.model;
 
 public class UserLogin {
 
-		private String nomeRazao;
-		
-		private String email;
-		
-		private String senha;
-		
-		private String token;
+    private String nomeRazao;
 
-		public String getNome() {
-			return nomeRazao;
-		}
+    private String email;
 
-		public void setNome(String nomeRazao) {
-			this.nomeRazao = nomeRazao;
-		}
+    private String senha;
 
-		public String getEmail() {
-			return email;
-		}
+    private String token;
 
-		public void setEmail(String email) {
-			this.email = email;
-		}
+    private int tipoPessoa;
 
-		public String getSenha() {
-			return senha;
-		}
+    public String getNome() {
+        return nomeRazao;
+    }
 
-		public void setSenha(String senha) {
-			this.senha = senha;
-		}
+    public void setNome(String nomeRazao) {
+        this.nomeRazao = nomeRazao;
+    }
 
-		public String getToken() {
-			return token;
-		}
+    public String getEmail() {
+        return email;
+    }
 
-		public void setToken(String token) {
-			this.token = token;
-		}
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public int getTipoPessoa() {
+        return tipoPessoa;
+    }
+
+    public void setTipoPessoa(int tipoPessoa) {
+        this.tipoPessoa = tipoPessoa;
+    }
 }
