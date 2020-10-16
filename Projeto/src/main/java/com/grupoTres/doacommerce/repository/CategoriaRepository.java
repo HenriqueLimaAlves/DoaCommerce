@@ -10,5 +10,5 @@ import com.grupoTres.doacommerce.model.Produto;
 
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Long>{
-	public List<Produto> findAllByCategoriaContainingIgnoreCase(String listaCategoriaCategoria);
+	public List<Categoria> findAllByCategoriaContainingIgnoreCase(String categoria);
 }
