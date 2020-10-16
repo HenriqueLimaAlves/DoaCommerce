@@ -10,6 +10,8 @@ public class UserLogin {
 		
 		private String token;
 
+		private int tipoPessoa;
+
 		public String getNome() {
 			return nomeRazao;
 		}
@@ -42,4 +44,11 @@ public class UserLogin {
 			this.token = token;
 		}
 
+	public int getTipoPessoa() {
+		return tipoPessoa;
+	}
+
+	public void setTipoPessoa(int tipoPessoa) {
+		this.tipoPessoa = tipoPessoa;
+	}
 }

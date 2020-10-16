@@ -46,7 +46,7 @@ public class UsuarioService {
 	
 				user.get().setToken(authHeader);
 				user.get().setNome(email.get().getNomeRazao());
-				
+				user.get().setTipoPessoa(email.get().getTipoPessoa());
 				return user;
 				
 			}
