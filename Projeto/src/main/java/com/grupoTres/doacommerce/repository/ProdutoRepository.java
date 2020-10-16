@@ -10,4 +10,6 @@ import com.grupoTres.doacommerce.model.Produto;
 @Repository
 public interface ProdutoRepository extends JpaRepository<Produto, Long>{
 	public List<Produto> findAllByCategoriaId(long categoriaId);
+	
+	public List<Produto> findAllByUrgente(boolean urgente);
 }

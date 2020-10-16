@@ -76,6 +76,14 @@ public class Produto {
 		this.nome = nome;
 	}
 
+	public String getTexto() {
+		return texto;
+	}
+
+	public void setTexto(String texto) {
+		this.texto = texto;
+	}
+
 	public boolean isUrgente() {
 		return urgente;
 	}
