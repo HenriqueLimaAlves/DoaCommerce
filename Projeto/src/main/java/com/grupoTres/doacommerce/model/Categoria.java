@@ -27,6 +27,7 @@ public class Categoria {
 	@Size(max = 250)
 	private String categoria;
 	
+	
 	private String img;
 
 	@OneToMany(mappedBy = "categoria", cascade = CascadeType.ALL)
