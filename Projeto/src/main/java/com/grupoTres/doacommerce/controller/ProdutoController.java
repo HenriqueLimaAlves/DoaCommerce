@@ -51,7 +51,7 @@ public class ProdutoController {
 		return ResponseEntity.status(HttpStatus.OK).body(repository.save(produtoPut));
 	}
 	
-	@DeleteMapping 
+	@DeleteMapping("/{id}")
 	public void deleteProduto(@PathVariable Long id) {
 		repository.deleteById(id);
 	}	
